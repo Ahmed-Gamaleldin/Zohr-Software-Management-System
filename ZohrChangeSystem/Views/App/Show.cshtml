@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ChangeForm>
+@{
+    ViewData["Title"] = "Show";
+}
+
+<h2>Show</h2>
+<ul>
+    <li><a asp-controller="App" asp-action="Create" class="btn btn-primary btn-lg btn-block" >Create a Change Form</a></li>
+    <li><a asp-controller="App" asp-action="ListAll" class="btn btn-primary btn-lg btn-block">List All Change Forms</a></li>
+    <li><a asp-controller="App" asp-action="ApproveReject" class="btn btn-primary btn-lg btn-block">List Change Forms waiting approvals</a></li>
+
+
+</ul>
+

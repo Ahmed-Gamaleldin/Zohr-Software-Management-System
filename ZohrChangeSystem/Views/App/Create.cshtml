@@ -1,0 +1,39 @@
+﻿
+@model ChangeFormViewModel
+@{
+    ViewData["Title"] = "Create";
+}
+<h2>Create a New Change Form</h2>
+<div class="well">
+
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="title">Title:</label>
+            <input asp-for="title" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="category">Category:</label>
+            <select name="category" class="selectpicker form-control">
+                <option>ESD</option>
+                <option>DCS</option>
+                <option>HMI</option>
+            </select>
+
+        </div>
+        <div class="form-group">
+            <label asp-for="description">Change Description:</label>
+            <textarea rows="6" asp-for="description" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <label asp-for="initiatedBy">Initiated By:</label>
+            <input asp-for="initiatedBy" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+
+
+    </form>
+</div>
+

@@ -1,0 +1,11 @@
+D:\Software\Projects\ZohrChangeSystem\ZohrChangeSystem\bin\Debug\netcoreapp2.0\ZohrChangeSystem.deps.json
+D:\Software\Projects\ZohrChangeSystem\ZohrChangeSystem\bin\Debug\netcoreapp2.0\ZohrChangeSystem.runtimeconfig.json
+D:\Software\Projects\ZohrChangeSystem\ZohrChangeSystem\bin\Debug\netcoreapp2.0\ZohrChangeSystem.runtimeconfig.dev.json
+D:\Software\Projects\ZohrChangeSystem\ZohrChangeSystem\bin\Debug\netcoreapp2.0\ZohrChangeSystem.dll
+D:\Software\Projects\ZohrChangeSystem\ZohrChangeSystem\bin\Debug\netcoreapp2.0\ZohrChangeSystem.pdb
+D:\Software\Projects\ZohrChangeSystem\ZohrChangeSystem\obj\Debug\netcoreapp2.0\ZohrChangeSystem.csproj.CoreCompileInputs.cache
+D:\Software\Projects\ZohrChangeSystem\ZohrChangeSystem\obj\Debug\netcoreapp2.0\ZohrChangeSystem.AssemblyInfoInputs.cache
+D:\Software\Projects\ZohrChangeSystem\ZohrChangeSystem\obj\Debug\netcoreapp2.0\ZohrChangeSystem.AssemblyInfo.cs
+D:\Software\Projects\ZohrChangeSystem\ZohrChangeSystem\obj\Debug\netcoreapp2.0\ZohrChangeSystem.dll
+D:\Software\Projects\ZohrChangeSystem\ZohrChangeSystem\obj\Debug\netcoreapp2.0\ZohrChangeSystem.pdb
+D:\Software\Projects\ZohrChangeSystem\ZohrChangeSystem\obj\Debug\netcoreapp2.0\ZohrChangeSystem.csprojResolveAssemblyReference.cache

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<ChangeForm>
+@{
+    ViewData["Title"] = "ListAll";
+}
+
+<table class="table table-striped table-bordered" style="width:100%">
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Initiated By</th>
+            <th>Init Date</th>
+            <th>Status</th>
+            <th>View Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (ChangeForm c in Model)
+        {
+            <tr>
+                <td>@c.Id</td>
+                <td>@c.title</td>
+                <td>@c.category</td>
+                <td>@c.initiatedBy</td>
+                <td>@c.date</td>
+                <td>@c.status</td>
+                <td><a href="">View Details</a></td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+
+

@@ -1,0 +1,11 @@
+<div class="form-group">
+            <label asp-for="date">Date:</label>
+            <div class="input-group date" data-provide="datepicker">
+                <input asp-for="date" class="form-control" />
+
+
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                </div>
+            </div>
+        </div>

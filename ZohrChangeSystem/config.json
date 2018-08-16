@@ -1,0 +1,8 @@
+{
+    "ConnectionStrings": {
+        "ZohrConnectionString": "server=(localdb)\\ProjectsV13;Database=ZohrDb;Integrated Security=true;MultipleActiveResultSets=True;"
+    }
+
+    
+
+}

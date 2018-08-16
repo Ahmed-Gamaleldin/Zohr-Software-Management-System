@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Zohr Change System: @ViewBag.Title</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="~/lib/bootstrap-datepicker/dist/css/bootstrap-datepicker.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="navbar navbar-inverse">
+        <header>
+
+            <div class="navbar-brand">Zohr Software Change Management System</div>
+            <div class="col-lg-offset-9">
+                <ul class="nav navbar-nav">
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="App" asp-action="Login">Login</a></li>
+                    <li><a asp-controller="App" asp-action="ContactUs">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </header>
+    </div>
+    <section class="container">
+
+        @RenderBody()
+    </section>
+    <footer class="container">
+        <div>Copyright Schneider-Electric 2018 LCC</div>
+    </footer>
+
+
+    <script src="~/lib/jQuery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="~/lib/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
+
+    <script src="~/js/site.js"></script>
+    @RenderSection("scripts", false)
+
+</body>
+</html>
